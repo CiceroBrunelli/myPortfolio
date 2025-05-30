@@ -1,4 +1,5 @@
-<div class="button">
-    <p-button label="Linktree" variant="text" [rounded]="true"/>
-    <p-button label="Home" variant="text" [rounded]="true"/>
-</div>
+<nav class="nav-container">
+    <a routerLink="/" routerLinkActive="active" class="nav-button" [routerLinkActiveOptions]="{ exact: true }">Linktree</a>
+    <a routerLink="/home" routerLinkActive="active" class="nav-button">Home</a>
+    <a routerLink="/contato" routerLinkActive="active" class="nav-button">Portfolio</a>
+</nav>
