@@ -1,3 +1,23 @@
-.button{
-    text-align: center;
+.nav-container {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  font-size: 14px;
+}
+
+.nav-button {
+  padding: 8px 12px;
+  text-decoration: none;
+  color: white;
+  background-color: transparent;
+  transition: background-color 0.3s;
+  border-radius: 8px;
+}
+
+.nav-button:hover {
+  background-color: #373738;
+}
+
+.active {
+  background-color: #373738;
 }
