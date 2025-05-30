@@ -1,9 +1,9 @@
 import { Component } from '@angular/core';
-import { ButtonModule } from 'primeng/button';
+import { RouterModule } from '@angular/router';
 
 @Component({
   selector: 'app-top-bar',
-  imports: [ButtonModule],
+  imports: [RouterModule],
   templateUrl: './top-bar.component.html',
   styleUrl: './top-bar.component.scss'
 })
